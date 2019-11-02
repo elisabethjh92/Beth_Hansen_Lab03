@@ -4,85 +4,86 @@ var visitorName = prompt('Hello! What is your name?');
 alert('Hello, ' + visitorName + '!' + ' Welcome to my website!')
 console.log(visitorName);
 
-var bethBirth = prompt('Did I grow up in the US?');
-bethBirth = bethBirth.toLowerCase();
+// var bethBirth = prompt('Did I grow up in the US?');
+// bethBirth = bethBirth.toLowerCase();
 
-if (bethBirth === 'no' || bethBirth === 'n') {
-  alert('That is correct!');
-  console.log('That is correct!');
-} else {
-  alert('Not quite!');
-  console.log('Not quite!');
-}
+// if (bethBirth === 'no' || bethBirth === 'n') {
+//   alert('That is correct!');
+//   console.log('That is correct!');
+// } else {
+//   alert('Not quite!');
+//   console.log('Not quite!');
+// }
 
-var bethUni = prompt('Did I go to University in the US?');
-bethUni = bethUni.toLocaleLowerCase();
+// var bethUni = prompt('Did I go to University in the US?');
+// bethUni = bethUni.toLowerCase();
 
-if (bethUni === 'yes' || bethUni === 'y') {
-  alert('That is correct!');
-  console.log('Correct!'); 
-} else {
-  alert('Not quite!')
-  console.log('Not quite!');
-}
+// if (bethUni === 'yes' || bethUni === 'y') {
+//   alert('That is correct!');
+//   console.log('Correct!'); 
+// } else {
+//   alert('Not quite!')
+//   console.log('Not quite!');
+// }
 
-var bethPets = prompt('Do I have dogs?');
-bethPets = bethPets.toLocaleLowerCase();
+// var bethPets = prompt('Do I have dogs?');
+// bethPets = bethPets.toLowerCase();
 
-if(bethPets === 'no' || bethPets === 'n') {
-   alert('That is correct!')
-    console.log('That is correct!');
-} else {
-alert('Not quite!')
-console.log('Not quite!');
-}
+// if(bethPets === 'no' || bethPets === 'n') {
+//    alert('That is correct!')
+//     console.log('That is correct!');
+// } else {
+// alert('Not quite!')
+// console.log('Not quite!');
+// }
 
 // var bethWork = prompt('Have I worked as a nanny?');
-// bethWork = bethWork.toLocaleLowerCase();
+// bethWork = bethWork.toLowerCase();
 
 // if(bethWork === 'yes' || bethWork === 'y') {
 //    alert('That is correct!')
-//     console.log('That is correct!); correct answer to 'Have I worked as a nanny'
+//     console.log('That is correct!');
 // } else {
 // alert('Not quite!')
-// console.log('Not quite!'); incorrect answer to 'Have I worked as a nanny'
+// console.log('Not quite!');
 // }
 
 // var bethCountry = prompt('Have I lived in more than one country?');
-// bethCountry = bethCountry.toLocaleLowerCase();
+// bethCountry = bethCountry.toLowerCase();
 
 // if(bethCountry === 'yes' || bethCountry === 'y') {
 //    alert('That is correct!')
-//     console.log('That is correct!); correct answer to 'Have I lived in more than one country'
+//     console.log('That is correct!');
 // } else {
 // alert('Not quite!')
-// console.log('Not quite!'); incorrect answer to 'Have I lived in more than one country'
+// console.log('Not quite!');
 // }
 
-// // var travelNumberGuesses = 4
-// // var bethTravel = parseInt(prompt('How many countries do you think I have visited?'))
-// // console.log(typeof bethTravel);
-// // while (travelNumberGuesses > 0) {
-// //     //if(travelNumberGuesses = 0)
-// //     //{alert('The correct answer is 20!')}
-// //     if(bethTravel === 20){ 
-// //         alert('That is correct!');
-// //         travelNumberGuesses = 0;
-// //         console.log(travelNumberGuesses);
-// //     } else if (bethTravel < 20) {
-// //         alert('Too low!');
-// //         travelNumberGuesses - 1;
-// //         console.log(travelNumberGuesses);
-// //         bethTravel = parseInt(prompt('How many countries do you think I have visted?'));
-// //     } else if(bethTravel > 20) {
-// //         alert('Too high!');
-// //         travelNumberGuesses - 1;
-// //         bethTravel = parseInt(prompt('How many countries do you think I have visted?'));
-// //         console.log(travelNumberGuesses);
-// //     }
+var travelNumberGuesses = 4
+var bethTravel = parseInt(prompt('How many countries do you think I have visited?'))
+console.log(typeof bethTravel);
+while (travelNumberGuesses > 0) {
 
-// // } 
+  if (bethTravel === 20) {
+    alert('That is correct!');
+    travelNumberGuesses = 0;
+    console.log(travelNumberGuesses);
+  } else if (bethTravel < 20) {
+    alert('Too low!');
+    travelNumberGuesses - 1;
+    console.log(travelNumberGuesses);
+    bethTravel = parseInt(prompt('How many countries do you think I have visted?'));
+  } else if (bethTravel > 20) {
+    alert('Too high!');
+    travelNumberGuesses - 1;
+    bethTravel = parseInt(prompt('How many countries do you think I have visted?'));
+    console.log(travelNumberGuesses);
+  }
+  if (travelNumberGuesses = 0) {
+    alert('The correct answer is 20!')
 
+  }
+}
 // var bethLive = prompt('Which of these countries have I not lived in?')
 
 
