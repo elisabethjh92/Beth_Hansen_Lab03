@@ -1,0 +1,93 @@
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgb(246, 246, 233);
+  letter-spacing: 0.07em;
+  font-family: helvetica;
+  text-align: center;
+}
+
+#page {
+  max-width: 940px;
+  min-width: 720px;
+  margin: 10px 10px 10px 10px;
+  padding: 20px;
+  border: 5px;
+}
+
+#aboutMe {
+  border: solid rgb(3, 100, 48) 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: center;
+  background-color: rgb(3, 100, 48);
+  -moz-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  -webkit-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  box-shadow: 5px 5px 5px 5px #0c0c0c;
+  
+}
+#biography {
+  border: solid rgb(3, 100, 48) 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: center;
+  -moz-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  -webkit-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  box-shadow: 5px 5px 5px 5px #0c0c0c;
+
+
+}
+#educationHistory {
+  border: solid rgb(3, 100, 48) 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: center;
+  -moz-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  -webkit-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  box-shadow: 5px 5px 5px 5px #0c0c0c;
+
+}
+#jobExperience {
+  border: solid rgb(3, 100, 48) 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: center;
+  -moz-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  -webkit-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  box-shadow: 5px 5px 5px 5px #0c0c0c;
+
+}
+#goals {
+  border: solid rgb(3, 100, 48) 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: center;
+  -moz-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  -webkit-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  box-shadow: 5px 5px 5px 5px #0c0c0c;
+
+}
+#favouritePlaces {
+  border: solid rgb(3, 100, 48) 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: center;
+  -moz-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  -webkit-box-shadow: 5px 5px 5px 5px #0c0c0c;
+  box-shadow: 5px 5px 5px 5px #0c0c0c;
+
+}
