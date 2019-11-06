@@ -75,12 +75,12 @@ while (travelNumberGuesses > 0) {
   } else if (bethTravel > 20) {
     alert('Too high! Try again!');
     travelNumberGuesses --;
-    console.log('That is incorrect');
+    //console.log('That is incorrect');
   } else {
     travelNumberGuesses = prompt('You need to fill in a number. Try again!');
   }
 }
-alert('The correct answer is 20!')
+alert('The correct answer is 20!');
 
 var bethLive = prompt('Which of these countries have I not lived in?')
 
