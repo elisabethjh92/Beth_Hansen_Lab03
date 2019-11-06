@@ -2,18 +2,18 @@
 
 var visitorName = prompt('Hello! What is your name?');
 alert('Hello, ' + visitorName + '!' + ' Welcome to my website!')
-console.log(visitorName);
+//console.log(visitorName);
 
 var bethBirth = prompt('Did I grow up in the US?');
 bethBirth = bethBirth.toLowerCase();
 
 if (bethBirth === 'no' || bethBirth === 'n') {
   alert('That is correct!');
-  console.log('That is correct!');
+  //console.log('That is correct!');
   correctAnswers ++;
 } else {
   alert('Not quite!');
-  console.log('Not quite!');
+  //console.log('Not quite!');
 }
 
 var bethUni = prompt('Did I go to University in the US?');
@@ -21,11 +21,11 @@ bethUni = bethUni.toLowerCase();
 
 if (bethUni === 'yes' || bethUni === 'y') {
   alert('That is correct!');
-  console.log('Correct!'); 
+  //console.log('Correct!'); 
   correctAnswers ++;
 } else {
   alert('Not quite!')
-  console.log('Not quite!');
+  //console.log('Not quite!');
 }
 
 var bethPets = prompt('Do I have dogs?');
@@ -33,11 +33,11 @@ bethPets = bethPets.toLowerCase();
 
 if(bethPets === 'no' || bethPets === 'n') {
    alert('That is correct!')
-    console.log('That is correct!');
+    //console.log('That is correct!');
     correctAnswers ++;
 } else {
 alert('Not quite!')
-console.log('Not quite!');
+//console.log('Not quite!');
 }
 
 var bethWork = prompt('Have I worked as a nanny?');
@@ -45,11 +45,11 @@ bethWork = bethWork.toLowerCase();
 
 if(bethWork === 'yes' || bethWork === 'y') {
    alert('That is correct!')
-    console.log('That is correct!');
+    //console.log('That is correct!');
     correctAnswers ++;
 } else {
 alert('Not quite!')
-console.log('Not quite!');
+//console.log('Not quite!');
 }
 
 var bethCountry = prompt('Have I lived in more than one country?');
@@ -57,11 +57,11 @@ bethCountry = bethCountry.toLowerCase();
 
 if(bethCountry === 'yes' || bethCountry === 'y') {
    alert('That is correct!')
-    console.log('That is correct!');
+    //console.log('That is correct!');
     correctAnswers ++;
 } else {
 alert('Not quite!')
-console.log('Not quite!');
+//console.log('Not quite!');
 }
 
 var bethTravel = prompt('How many countries do you think I have visited?')
@@ -114,8 +114,8 @@ while(liveGuesses > 0) {
 
 function math(){
   var percent = math.round(correctAnswers/7*100);
-  console.log(correctAnswers);
+  //console.log(correctAnswers);
   return percent;
 };
-  console.log(math());
+  //console.log(math());
 alert('Thanks for taking the time to get to know me, ' + visitorName + '! You answered ' + math + 'percent correctly!');
