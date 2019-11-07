@@ -1,5 +1,7 @@
 'use strict';
 
+var correctAnswers = 0;
+
 var visitorName = prompt('Hello! What is your name?');
 alert('Hello, ' + visitorName + '!' + ' Welcome to my website!')
 //console.log(visitorName);
@@ -75,11 +77,11 @@ while (travelNumberGuesses > 0) {
     //console.log('That is correct!');
     travelNumberGuesses = 0;
   } else if (bethTravel < 20) {
-    alert('Too low! Guess again.');
+    prompt('Too low! Guess again.');
     travelNumberGuesses --;
     //console.log('That is incorrect');
   } else if (bethTravel > 20) {
-    alert('Too high! Try again!');
+    prompt('Too high! Try again!');
     travelNumberGuesses --;
     //console.log('That is incorrect');
   } else {
@@ -88,11 +90,11 @@ while (travelNumberGuesses > 0) {
 }
 alert('The correct answer is 20!');
 
-var liveArray = ['Indonesia', 'Cambodia', 'Vietnam', 'Finland', 'United States'];
+var liveArray = ['indonesia', 'cambodia', 'vietnam', 'finland', 'united states'];
 
 var bethLive = prompt('What countries have I lived in? You have 6 guesses.').toLowerCase();
 bethLive = bethLive.toLowerCase();
-var liveGuesses = 6;
+var liveGuesses = 5;
 //console.log('You guessed ' + bethLive);
 while(liveGuesses > 0) {
   for(var i = 0; i < liveArray.length; i++) {
@@ -103,7 +105,7 @@ while(liveGuesses > 0) {
     }
   }
   liveGuesses --;
-  if(liveGuesses !== 0 || liveGuesses !== -1) {
+  if(liveGuesses !== 0 && liveGuesses !== -1) {
     bethLive = prompt('That is incorrect. Please guess again.');
   } else if (liveGuesses === 0) {
     alert('The correct options are Indonesia, Cambodia, Vietnam, Finland, and the United States.');
@@ -113,9 +115,9 @@ while(liveGuesses > 0) {
 }
 
 function math(){
-  var percent = math.round(correctAnswers/7*100);
+  var percent = Math.round(correctAnswers/7*100);
   //console.log(correctAnswers);
   return percent;
 };
   //console.log(math());
-alert('Thanks for taking the time to get to know me, ' + visitorName + '! You answered ' + math + 'percent correctly!');
+alert('Thanks for taking the time to get to know me, ' + visitorName + '! You answered ' + math() + ' percent correctly!');
