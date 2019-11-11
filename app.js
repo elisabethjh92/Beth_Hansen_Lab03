@@ -1,5 +1,7 @@
 'use strict';
 
+function runBethsPage() {
+
 var correctAnswers = 0;
 
 var visitorName = prompt('Hello! What is your name?');
@@ -121,3 +123,8 @@ function math(){
 };
   //console.log(math());
 alert('Thanks for taking the time to get to know me, ' + visitorName + '! You answered ' + math() + ' percent correctly!');
+
+};
+
+runBethsPage();
+
